@@ -15,3 +15,59 @@ body {
   background-color: wheat;
   text-align: center;
 }
+      
+      /* Level 1: 1 row, 5 columns */
+      #level-1 {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+      }
+      
+      /* Level 2: 5 rows, 1 column */
+      #level-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+      }
+      
+      /* Level 3: 2 rows, 3 columns  */
+      #level-3 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+      
+      /* Level 4: 3 rows, 2 columns  */
+      #level-4 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      }
+      
+      /* Level 5: 3 rows, 3 columns  */
+      #level-5 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      }
+      
+      /* Level 6: 2 rows, 4 columns */
+      #level-6 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+      
+      /* Level 7: 4 rows, 2 columns  */
+      #level-7 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+      }
+      
+      /* Level 8: 4 rows, 5 columns */
+      #level-8 {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+      }
+      
+      /* Level 9: 5 rows, 5 columns */
+      #level-9 {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+      }
+     
+  
